@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
 s.name             = "sails.ios"
-s.version          = "0.2.3"
+s.version          = "0.2.4"
 s.summary          = "iOS client for interacting with sails.js apps over http or ws"
 s.description      = <<-DESC
 I was told this could be optional
@@ -31,6 +31,6 @@ s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
 s.dependency 'SOCKit', '~> 1.1'
-s.dependency 'AFNetworking', '~> 2.2.1'
-s.dependency 'socket.IO', '~> 0.5.2'
+s.dependency 'AFNetworking', '~> 2.5'
+s.dependency 'socket.IO'
 end
